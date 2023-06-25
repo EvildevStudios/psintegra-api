@@ -10,7 +10,7 @@ const keywordFilter = (req, res, next) => {
 
         if (!keyword) {
             return res.status(400).json({
-                message: "Lo siento, como Asistente de Psintegra no puedo ayudarte con temas que no sean de salud mental."
+                message: "Lo siento, como Consejero LC no puedo ayudarte con temas que no sean de salud mental."
             });
         }
     }

@@ -7,7 +7,7 @@ const replaceName = (req, res, next) => {
         if (typeof data === "string") {
             nameList.forEach(name => {
                 const regex = new RegExp(`\\b${name}\\b`, 'gi');
-                data = data.replace(regex, "Asistente de Psintegra");
+                data = data.replace(regex, "Consejero LC");
             });
         }
         originalSend.call(this, data);
