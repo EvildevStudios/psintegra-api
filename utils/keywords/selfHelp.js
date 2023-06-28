@@ -48,7 +48,8 @@ const selfHelp = [
     'crecimiento personal',
     'desarrollo espiritual',
     'equilibrio interior',
-    'esperanza'
+    'esperanza',
+    'consejo'
 ];
 
 module.exports = selfHelp;
