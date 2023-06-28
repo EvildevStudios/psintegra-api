@@ -1,4 +1,5 @@
 const disorders = require('./keywords/disorders');
+const gratitude = require('./keywords/gratitude');
 const problems = require('./keywords/problems');
 const selfHelp = require('./keywords/selfHelp');
 const therapy = require('./keywords/therapy');
@@ -12,6 +13,7 @@ const otherTopics = require('./keywords/otherTopics');
 
 const keywords = [
     ...disorders,
+    ...gratitude,
     ...problems,
     ...selfHelp,
     ...therapy,
