@@ -1,12 +1,23 @@
 version: '3'
 services:
   backend:
-    image: cabreraevil/psintegra-backend
+    image: libreconsejo-backend
     build:
       context: .
       dockerfile: Dockerfile
     restart: always
     ports:
       - 3000:3000
-    container_name: psintegra-backend
-    command: npm start
+    container_name: libreconsejo-backend
+    env_file:
+      - .env
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 256M
+    logging:
+      driver: 'json-file'
+      options:
+        max-size: '10m'
+        max-file: '3'
