@@ -1,6 +1,6 @@
-# Psintegra API - Express Server
+# Libre Consejo API - Express Server
 
-Psintegra API is a Node.js and Express-based API that provides two endpoints for working with OpenAI's GPT-3 language model. These endpoints are `/api/openai/engines` for retrieving available engines, and `/api/openai/chat` for interacting with the ChatGPT model.
+Libre Consejo API is a Node.js and Express-based API that provides two endpoints for working with OpenAI's GPT-3 language model. These endpoints are `/api/openai/engines` for retrieving available engines, and `/api/openai/chat` for interacting with the ChatGPT model.
 
 ## File Structure
 
@@ -75,7 +75,7 @@ Copy code
 ```
 
 ## License
-Psintegra API is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+Libre Consejo API is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ## API Reference
-Psintegra API has been deployed using pterodactyl panel and is available at [API Deployment](https://api.psintegra.com). The API is documented using postman and the documentation can be found at [API Reference](https://documenter.getpostman.com/view/23770643/2s93XsXRpX).
+Libre Consejo API has been deployed using pterodactyl panel and is available at [API Deployment](https://api.Libre Consejo.com). The API is documented using postman and the documentation can be found at [API Reference](https://documenter.getpostman.com/view/23770643/2s93XsXRpX).

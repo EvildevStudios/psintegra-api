@@ -1,6 +1,7 @@
 {
-  "name": "psintegra-api",
-  "version": "0.0.0",
+  "name": "libreconsejo-api",
+  "homepage": "https://api.psintegra.com",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
