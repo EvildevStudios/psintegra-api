@@ -31,7 +31,7 @@ router.post(
     validateRequest,
     // Apply the keywordFilter middleware to the postChatRequest function
     keywordFilter,
-    // Replace name for psintegra
+    // Replace name for libreconsejo
     nameReplacer,
     // Call the postChatRequest function
     postChatRequest

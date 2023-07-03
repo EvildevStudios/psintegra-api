@@ -7,7 +7,7 @@ dotenv.config();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Psintegra - API' });
+  res.render('index', { title: 'Libre Consejo - API' });
 });
 
 module.exports = router;
